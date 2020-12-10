@@ -1,6 +1,6 @@
 # Count objects in Azure AD
 
-This script estimates the number of objects in Azure Active Directory.
+This script estimates the number of objects in Azure Active Directory. As you know (maybe), your tenant can contains a limited number of objects in Azure AD.
 
 ## Project Goals
 
@@ -42,13 +42,13 @@ Count-AzureAD-Objects.ps1
 
 ## History
 
-TODO: Write history
+Dec, 10, 2020 : Creation
 
 ## Credits
 
 Mathias Dumont (IdSec)
 
-Pierre (Microsft)
+Pierre (Microsoft)
 
 ## License
 
