@@ -22,4 +22,4 @@ Our objectives are to help you to manage and control your identities and the sec
 
 ## Contributor
 
-+ [Mathias Dumont](https://www.linkedin.com/in/idsec-inc-1881b21a9)
++ [Mathias Dumont](https://www.linkedin.com/in/mathiasdumont)
