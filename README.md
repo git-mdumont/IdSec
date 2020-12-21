@@ -11,7 +11,7 @@ Our objectives are to help you to manage and control your identities and the sec
 * Config : to configure DCOM and WMI parts
 
 
-## Coonect with me :
+## Connect with me :
 [<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 <br />
@@ -22,4 +22,4 @@ Our objectives are to help you to manage and control your identities and the sec
 
 ## Contributor
 
-+ [Mathias Dumont](https://gist.github.com/jxson)
++ [Mathias Dumont](https://www.linkedin.com/in/idsec-inc-1881b21a9)
