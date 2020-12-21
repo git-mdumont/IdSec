@@ -1,5 +1,5 @@
-# IdSec
-IdSec Inc
+# IdSec Inc
+Our objectives are to help you to manage and control your identities and the security.
 
 ## Azure Active Directory
 
