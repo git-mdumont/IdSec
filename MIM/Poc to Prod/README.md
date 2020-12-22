@@ -14,6 +14,14 @@ These scripts will help you to export your POC configuration and import it in yo
 ### Export
 Export-Config.ps1 -SourceUri 'http://servername:5725' -DestinationUri 'http://servername:5725'
 
+#### Result
+    2020-12-02_09-31
+        Destination-Policy.xml
+        Destination-Schema.xml
+        Source-Policy.xml
+        Source-Schema.xml
+    ---
+
 ### Compare
 
 
