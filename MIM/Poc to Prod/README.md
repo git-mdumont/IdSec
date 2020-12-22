@@ -12,7 +12,7 @@ These scripts will help you to export your POC configuration and import it in yo
 
 ## Using these scripts
 ### Export
-
+Export-Config.ps1 -SourceUri 'http://servername:5725' -DestinationUri 'http://servername:5725'
 
 ### Compare
 
