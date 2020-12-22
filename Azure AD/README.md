@@ -1,5 +1,4 @@
 # Azure Active Directory
-Our objectives are to help you to manage and control your identities and the security.
 
 ## Azure AD Connect
 
