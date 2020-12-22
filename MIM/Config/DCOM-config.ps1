@@ -162,11 +162,11 @@ foreach ($strcomputer in $computers)
  }
 }
 #----------------------------------------------------------------------------------------------------------
- trap 
- { 
- $exMessage = $_.Exception.Message
- if($exMessage.StartsWith("L:"))
- {write-host "`n" $exMessage.substring(2) "`n" -foregroundcolor white -backgroundcolor darkblue}
- else {write-host "`nError: " $exMessage "`n" -foregroundcolor white -backgroundcolor darkred}
- Exit
+ trap { 
+  $exMessage = $_.Exception.Message
+  If($exMessage.StartsWith("L:")){
+    write-host "`n" $exMessage.substring(2) "`n" -foregroundcolor white -backgroundcolor darkblue
+  } else {
+    write-host "`nError: " $exMessage "`n" -foregroundcolor white -backgroundcolor darkred}
+    Exit
  }
