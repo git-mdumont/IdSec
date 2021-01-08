@@ -47,7 +47,7 @@ CommitChanges.ps1 -Type "Schema" -Uri "http://servername:5725"
     Importing changes into production.
     Import complete.
 
-### import undone
+### Import undone
 CommitChanges.ps1 -Type "Schema" -undone -Uri "http://servername:5725"
 
 #### Result
@@ -56,9 +56,8 @@ CommitChanges.ps1 -Type "Schema" -undone -Uri "http://servername:5725"
 
 
 ## History
-
-Dec, 2, 2020 : Creation
-Jan, 7, 2021 : Add a 'Undone' switch parameter
+- Jan, 7, 2021 : Add a 'Undone' switch parameter
+- Dec, 2, 2020 : Creation
 
 ## Credits
 
