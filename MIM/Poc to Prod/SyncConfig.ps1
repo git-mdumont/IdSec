@@ -8,8 +8,14 @@
 .PARAMETER DestinationFile
     File contains the destination of MIM schema
 
+.PARAMETER Type
+    Define the type of MIM config which be imported
+
 .EXAMPLE
-    PS C:\> SyncSchema.ps1 -Type "Schema" -SourceFile "\2020-12-10_09-25\Source-Schema.xml" -DestinationFile "\2020-12-10_09-25\Destination-Schema.xml"
+    PS C:\> SyncConfig.ps1 -Type "Schema" -SourceFile "\2020-12-10_09-25\Source-Schema.xml" -DestinationFile "\2020-12-10_09-25\Destination-Schema.xml"
+
+.EXAMPLE
+    PS C:\> SyncConfig.ps1 -Type "Policy" -SourceFile "\2020-12-10_09-25\Source-Policy.xml" -DestinationFile "\2020-12-10_09-25\Destination-Policy.xml"
 
 # Based on this script https://docs.microsoft.com/en-us/previous-versions/mim/ff400277(v=ws.10)?redirectedfrom=MSDN
 #>
