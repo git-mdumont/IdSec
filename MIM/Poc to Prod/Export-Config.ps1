@@ -50,7 +50,7 @@ Function Export {
         $policy | ConvertFrom-FIMResource -file $PolicyFile
         Write-Host "$From file is saved as " $PolicyFile "."
         If($policy.Count -gt 0) {
-            Write-Host "Export complete.  The next step is run SyncPolicy.ps1."
+            Write-Host "Export complete.  The next step is run SyncSchema.ps1."
         } Else {
             Write-Host "While export completed, there were no resources.  Please ensure that the arguments to Export-FIMConfig are correct."
         }
