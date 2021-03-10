@@ -187,7 +187,7 @@
     }
   },
   "variables": {
-    "baseUrl": "https://github.com/git-mdumont/IdSec/tree/main/Azure/Template/ADFS/main",
+    "baseUrl": "https://raw.githubusercontent.com/git-mdumont/IdSec/tree/main/Azure/Template/ADFS/main",
     "storageAccountNamePrefix": "[concat(uniquestring(resourceGroup().id),'sa')]",
     "deployStorageAccountsUrl": "[concat(variables('baseUrl'),'/deployStorageAccounts.json')]",
     "deployPublicIPsUrl": "[concat(variables('baseUrl'),'/deployPublicIPs.json')]",
